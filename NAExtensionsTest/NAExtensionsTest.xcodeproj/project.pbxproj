@@ -3,27 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		182F07A223D75E2800DE17AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F07A123D75E2800DE17AE /* AppDelegate.swift */; };
-		182F07A423D75E2800DE17AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F07A323D75E2800DE17AE /* SceneDelegate.swift */; };
 		182F07A623D75E2800DE17AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F07A523D75E2800DE17AE /* ViewController.swift */; };
-		182F07A923D75E2800DE17AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182F07A723D75E2800DE17AE /* Main.storyboard */; };
 		182F07AB23D75E2900DE17AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182F07AA23D75E2900DE17AE /* Assets.xcassets */; };
 		182F07AE23D75E2900DE17AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182F07AC23D75E2900DE17AE /* LaunchScreen.storyboard */; };
+		34A627EB0003146E02B443BA /* Pods_NAExtensionsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A94912082D90AC3FBE65AFB /* Pods_NAExtensionsTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		182F079E23D75E2800DE17AE /* NAExtensionsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAExtensionsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F07A123D75E2800DE17AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		182F07A323D75E2800DE17AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		182F07A523D75E2800DE17AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		182F07A823D75E2800DE17AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182F07AA23D75E2900DE17AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182F07AD23D75E2900DE17AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182F07AF23D75E2900DE17AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B82C88D0AD897473B6DDB4C /* Pods-NAExtensionsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAExtensionsTest.debug.xcconfig"; path = "Target Support Files/Pods-NAExtensionsTest/Pods-NAExtensionsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4A94912082D90AC3FBE65AFB /* Pods_NAExtensionsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAExtensionsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE347F989AC560D412AD4FB /* Pods-NAExtensionsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAExtensionsTest.release.xcconfig"; path = "Target Support Files/Pods-NAExtensionsTest/Pods-NAExtensionsTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34A627EB0003146E02B443BA /* Pods_NAExtensionsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +43,8 @@
 			children = (
 				182F07A023D75E2800DE17AE /* NAExtensionsTest */,
 				182F079F23D75E2800DE17AE /* Products */,
+				5056DA648E16EE3C1BED2A44 /* Pods */,
+				F74AD954B65313DDBB2682A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +60,29 @@
 			isa = PBXGroup;
 			children = (
 				182F07A123D75E2800DE17AE /* AppDelegate.swift */,
-				182F07A323D75E2800DE17AE /* SceneDelegate.swift */,
 				182F07A523D75E2800DE17AE /* ViewController.swift */,
-				182F07A723D75E2800DE17AE /* Main.storyboard */,
 				182F07AA23D75E2900DE17AE /* Assets.xcassets */,
 				182F07AC23D75E2900DE17AE /* LaunchScreen.storyboard */,
 				182F07AF23D75E2900DE17AE /* Info.plist */,
 			);
 			path = NAExtensionsTest;
+			sourceTree = "<group>";
+		};
+		5056DA648E16EE3C1BED2A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B82C88D0AD897473B6DDB4C /* Pods-NAExtensionsTest.debug.xcconfig */,
+				7CE347F989AC560D412AD4FB /* Pods-NAExtensionsTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F74AD954B65313DDBB2682A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A94912082D90AC3FBE65AFB /* Pods_NAExtensionsTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182F07B223D75E2900DE17AE /* Build configuration list for PBXNativeTarget "NAExtensionsTest" */;
 			buildPhases = (
+				2FD936BD768F70282CFF21E3 /* [CP] Check Pods Manifest.lock */,
 				182F079A23D75E2800DE17AE /* Sources */,
 				182F079B23D75E2800DE17AE /* Frameworks */,
 				182F079C23D75E2800DE17AE /* Resources */,
+				39DCE25C53B74BE7BAFC7EB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +147,52 @@
 			files = (
 				182F07AE23D75E2900DE17AE /* LaunchScreen.storyboard in Resources */,
 				182F07AB23D75E2900DE17AE /* Assets.xcassets in Resources */,
-				182F07A923D75E2800DE17AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD936BD768F70282CFF21E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAExtensionsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39DCE25C53B74BE7BAFC7EB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAExtensionsTest/Pods-NAExtensionsTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAExtensionsTest/Pods-NAExtensionsTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NAExtensionsTest/Pods-NAExtensionsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		182F079A23D75E2800DE17AE /* Sources */ = {
@@ -140,21 +201,12 @@
 			files = (
 				182F07A623D75E2800DE17AE /* ViewController.swift in Sources */,
 				182F07A223D75E2800DE17AE /* AppDelegate.swift in Sources */,
-				182F07A423D75E2800DE17AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		182F07A723D75E2800DE17AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182F07A823D75E2800DE17AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		182F07AC23D75E2900DE17AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,10 +334,12 @@
 		};
 		182F07B323D75E2900DE17AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B82C88D0AD897473B6DDB4C /* Pods-NAExtensionsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NAExtensionsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,16 +347,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.demo.NAExtensionsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		182F07B423D75E2900DE17AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE347F989AC560D412AD4FB /* Pods-NAExtensionsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NAExtensionsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.demo.NAExtensionsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

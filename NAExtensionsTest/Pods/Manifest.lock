@@ -1,0 +1,16 @@
+PODS:
+  - NAExtensions (1.0.3)
+
+DEPENDENCIES:
+  - NAExtensions (from `../NAExtensions/`)
+
+EXTERNAL SOURCES:
+  NAExtensions:
+    :path: "../NAExtensions/"
+
+SPEC CHECKSUMS:
+  NAExtensions: 1ff2fc40afecde7124d30dfa5160f9f6179e627f
+
+PODFILE CHECKSUM: 7a88eb612cfa27db88f1632ec0763f1a3c6678d4
+
+COCOAPODS: 1.8.3
