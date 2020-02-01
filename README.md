@@ -11,4 +11,4 @@ Find the very useful extensions to speed up your work in Swift.
 * Date
 * UserDefault
 
-pod 'NAExtensions'
+pod 'NAExtensions', '~> 1.0.4'
